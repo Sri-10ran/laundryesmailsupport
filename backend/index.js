@@ -32,7 +32,7 @@ app.post("/send-email", upload.fields([{ name: "photo" }, { name: "voice_note" }
 
         const mailOptions = {
             from: process.env.EMAIL, // Use configured email
-            to: "bathranpro@gmail.com",
+            to: "bathran14sri@gmail.com",
             subject: `New Complaint - Order ID: ${order_id}`,
             text: `Order ID: ${order_id}\nProblem Description: ${problem_description}`,
             attachments: []
